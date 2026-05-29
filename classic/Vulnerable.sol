@@ -1,5 +1,4 @@
-// Simple classic reentrancy example.
-// Intentionally vulnerable: external call happens before balance is updated.
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
 contract Vulnerable {
